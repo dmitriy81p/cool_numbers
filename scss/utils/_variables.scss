@@ -1,0 +1,35 @@
+/* reset */
+$min-width: 320px; 
+$max-width: 1265px; 
+$base-bg: #f7f7f7; 
+$base-font-size: 15px; 
+$base-line-height: 18px; 
+$base-font-family: 'SF UI Text', sans-serif; 
+$custom-font-family: 'Bebas Neue', sans-serif; 
+$link-color: #100da9;
+$default-transition:all 0.2s linear;
+
+/* main variables */
+
+//text, titles
+$text-color: #000;
+$title-color: #3346ff;
+$title-font-family: $custom-font-family;
+
+$font-size-h1: 150px;
+$line-height-h1: 154px;
+$font-size-h2: 60px;
+$line-height-h2: 64px;
+$font-size-h3: 28px;
+$line-height-h3: 32px;
+
+$color-red: #e9334d;
+$color-pink: #aa2cd6;
+$color-blue: #5548e0;
+$color-green:  #55a019;
+$color-orange: #fa830f;
+$color-red-hover: #e9485f;
+$color-pink-hover: #b24fd5;
+$color-blue-hover: #6357df;
+$color-green-hover:  #6dad3a;
+$color-orange-hover: #f89534;

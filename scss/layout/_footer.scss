@@ -1,0 +1,262 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer{ 	
+	text-align:left;
+	width:100%;
+	min-width: $min-width;
+	order: 3;	
+	-webkit-order: 3;	
+	padding-top: 50px;
+}
+.footer{
+	background: #414141;
+	padding: 25px 10px 0;
+	border-radius: 5px 5px 0px 0px;
+	&-nav{
+		padding-bottom: 26px;
+		border-bottom: 1px solid rgba(255,255,255,0.5);
+		&__list{
+		}
+		&__item{
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: -4px;
+			width: 33.33%;
+			text-align: center;
+&.active{
+	.footer-nav__link{
+		color: #e9334d;
+		display: inline-block;
+		text-replace: none;
+		cursor: default;
+		&:before{
+			opacity: 1;
+			width: 100%;
+		}
+	}
+}
+		}
+		&__link{
+			padding-bottom: 11px;
+			position: relative;
+			font-family: "Bebas Neue";
+			font-weight: 700;
+			line-height: 30px;
+			color: #fff;
+			font-size: 28px;
+			line-height: 30px;
+			display: block;
+			&:before{
+				content: '';
+				position: absolute;
+				display: block;
+				width: 0;
+				height: 5px;
+				border-radius: 5px;
+				opacity: 0;
+				left: 0;
+				bottom: 0;
+				transition: width 0.2s;
+				background-color: #e9334d;
+			}
+			&:hover{
+				color: #e9334d;
+				color: #a60ada;
+				transform: scale(1.125);
+			}
+			&.active{
+				&:before{
+					opacity: 1;
+				}
+			}
+		}
+	}
+	&-middle{
+		padding: 7px 0 12px;
+		border-bottom: 1px solid rgba(255,255,255,0.5);
+		&__box{
+			max-width: 745px;
+			margin: 0 auto;
+		}
+		&__logo{
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: -4px;
+			width: 26.67%                   
+		}
+		&__img{
+			width: 135px;
+			height: 50px;
+			display: block;
+			img{
+				display: block;
+				width: 100%;
+			}
+		}
+		&__soc{
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: -4px;
+			width: 51%;
+		}
+		&__button{
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: -4px;
+			position: relative;
+			height: 40px;
+			width: 22%;
+		}
+	}
+	&-bottom{
+		padding: 26px 0 16px;
+		text-align: center;
+		color: #707070;
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 15px;
+		&__link{
+			color: #707070;
+			font-size: 13px;
+			font-weight: 500;
+			line-height: 15px;
+			&:hover{
+				color: #fff;
+			}
+		}
+	}
+}
+.soc-list_footer{
+	margin-top: 0;
+}
+.soc-list__item{
+	&_mail{
+		.soc-list__link_footer{
+color: #2faafe;
+		}
+	}
+	&_whatsapp{
+		.soc-list__link_footer{
+			color: #27b43c; 
+		}
+	}
+	&_viber{
+		.soc-list__link_footer{
+			color: #bb5bff;
+		}
+	}
+}
+@media screen and (max-width: 1200px) {
+	
+}
+
+@media screen and (min-width: 992px){
+	
+}
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+	footer{
+		padding-top: 33px;
+	}
+	.footer {
+    padding: 16.5px 6.6px 0;
+    border-radius: 3.3px 3.3px 0px 0px;
+}
+.footer-nav {
+    padding-bottom: 17.16px;
+}
+.footer-nav__link {
+    padding-bottom: 7.26px;
+    line-height: 24px;
+    font-size: 24px;
+}
+.footer-nav__link_about {
+    font-size: 18.48px;
+}
+.footer-nav__item{
+	width: 100%;
+	margin-bottom: 15px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+.footer-nav__link_tarif {
+    font-size: 23.1px;
+}
+.footer-nav__link_contacts {
+    font-size: 18.48px;
+}
+.footer-middle {
+    padding: 10px 0 10px;
+}
+.footer-middle__box{
+	position: relative;
+}
+.footer-middle__logo {
+	margin: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.footer-middle__img {
+    width: 106.92px;
+    height: 39.6px;
+    margin: 0 auto;
+}
+.footer-middle__soc {
+    margin-right: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-middle__button {
+    height: 42.77px;
+    width: auto;
+    display: block;
+    margin-right: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+.button.button_footer {
+    height: 100%;
+    line-height: 42.77px;
+    font-size: 17.82px;
+    padding: 0 17.82px;
+}
+.footer-bottom {
+    padding: 10px 0;
+    font-size: 1.72px;
+    line-height: 1.98px;
+}
+.footer-bottom__link {
+    font-size: 8.58px;
+    line-height: 14px;
+    white-space: nowrap;
+    display: block;
+}
+}
+@media screen and (max-width: 600px){
+.footer-middle__box{
+	position: relative;
+}
+// .footer-middle__button{
+// 	float: none;
+// 	position: absolute;
+// 	top: 0;
+// 	right: 0;
+// }
+}
